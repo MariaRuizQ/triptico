@@ -1,0 +1,122 @@
+h1{
+  outline: 1px solid black; /*utilizo la propiedad outline para dar contorno al borde, el ancho y el color que deseo*/
+  text-align: center; /*le doy una alineación centrada al título*/
+  position: relative; /*coloco la posición relative*/
+  background-color: orange;/*le doy un color de fondo*/
+  font-weight:normal;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  width: 597px;
+  font-size:20px;
+}
+.espacios{
+  /*le doy el alto, anchura, borde, margen que deseo al bloque*/
+  width: 150px;
+  height: 510px;
+  padding: 15px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin: 0px;
+  margin-left: 0px; /*le doy un espacio hacia la deracha, entre cada bloque, mediante un margen*/
+  float: left; /*Meidante float especifica hacia donde debe salir el bloque*/
+  border-radius: 0%; /*le añado un borde redondeado*/
+  }
+.espacios2{
+  /*le doy el alto, anchura, borde, margen que deseo al bloque*/
+  width: 300px;
+  height: 510px;
+  padding: 15px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin: 0px;
+  margin-left: -1px; /*le doy un espacio hacia la deracha, entre cada bloque, mediante un margen*/
+  float: left; /*Meidante float especifica hacia donde debe salir el bloque*/
+  border-radius: 0%; /*le añado un borde redondeado*/
+  }
+
+.espacios3{
+  /*le doy el alto, anchura, borde, margen que deseo al bloque*/
+  width: 150px;
+  height: 510px;
+  padding: 15px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin: 0px;
+  margin-left: -1px; /*le doy un espacio hacia la deracha, entre cada bloque, mediante un margen*/
+  float: left; /*Meidante float especifica hacia donde debe salir el bloque*/
+  border-radius: 0%; /*le añado un borde redondeado*/
+  }
+
+.img1{
+  outline: 0px; /*como no deseo darle ningún contorno ala imagen, no le coloco pixeles*/
+  width: 300px;
+  max-width: 100%;
+}
+.img2{
+  outline: 0px; /*como no deseo darle ningún contorno ala imagen, no le coloco pixeles*/
+  max-width: 100%;
+}
+
+.p1{
+  max-width: 90%;
+  display: block;
+  margin: auto;
+  text-align: justify;
+  padding-bottom: 30px;
+
+}
+
+.p2{
+  max-width: 60%;
+  display: block;
+  margin: auto;
+  text-align: justify;
+  padding: 20px;
+
+}
+
+.p3{
+  max-width: 60%;
+  display: block;
+  margin: auto;
+  text-align: justify;
+
+}
+
+.p4{
+  max-width: 80%;
+  display: block;
+  margin: auto;
+  text-align: justify;
+  padding-bottom: 50px;
+
+}
+
+.antes{
+  text-align: center;
+  font-size:20px;
+}
+
+.monopoly{
+  text-align: center;
+  font-size:30px;
+}
+
+.ahora{
+  text-align: center;
+  font-size:20px;
+}
+
+h3{
+  outline: 1px solid black; /*utilizo la propiedad outline para dar contorno al borde, el ancho y el color que deseo*/
+  text-align: center; /*le doy una alineación centrada al título*/
+  position: relative; /*coloco la posición relative*/
+  background-color: orange;
+  font-weight:normal;
+  margin-top: 510px;
+  margin-bottom: 0px;
+  width: 591px;
+  position: absolute;
+  font-size:15px;
+  padding: 3px;
+}
